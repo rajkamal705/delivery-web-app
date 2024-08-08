@@ -8,6 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import Link from 'next/link';
 
 function Page() {
 
@@ -27,9 +28,9 @@ function Page() {
                 The best app for shipping & delivery in this century
               </div>
 
-              <div className='mt-20'>
+              <Link href="/login" className='mt-20'>
                 <button className='bg-white px-10 py-3 text-[#206EC0] rounded-full w-80'>Next</button>
-              </div>
+              </Link>
             </div>
           </CarouselItem>
         </CarouselContent>
