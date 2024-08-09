@@ -84,9 +84,9 @@ function page() {
                             </div>
                         </div>
 
-                        <div className='mt-8'>
+                        <Link href="/home" className='mt-8'>
                             <button className='w-96 text-[16px] font-[700] bg-white rounded-full py-4 text-[#206ec0]'>Sign in</button>
-                        </div>
+                        </Link>
                     </form>
                 </div>
             </div>

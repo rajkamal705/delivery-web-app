@@ -7,7 +7,7 @@ function page() {
     return (
         <>
             <div className='flex justify-center items-center bg-gradient-to-b from-green-500 via-yellow-500 to-blue-500 min-h-screen'>
-                <div className='flex flex-col'>
+                <div className='flex flex-col py-6'>
                     <div className='flex justify-center'>
                         <Image width={230} height={200} src="/Images/login.svg" alt="img" />
                     </div>
@@ -31,7 +31,7 @@ function page() {
                         <button className='text-[16px] font-[700] bg-white rounded-full px-32 py-4 text-[#206ec0]'>Sign in with password</button>
                     </Link>
 
-                    <div className='mt-10 mb-10 flex justify-center gap-4'>
+                    <div className='mt-10 flex justify-center gap-4'>
                         <span className='flex items-center text-[#9E9E9E]'>Don’t have an account?</span>
                         <Link href="/signup">
                             <span className='text-[#47AC5F] font-[600]'>Sign up</span>

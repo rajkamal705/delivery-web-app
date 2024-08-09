@@ -27,9 +27,9 @@ function page() {
                         </div>
                     </form>
 
-                    <div className='mt-2'>
+                    <Link href="/profile" className='mt-2'>
                         <button className='text-[16px] font-[700] bg-white rounded-full px-52 py-4 text-[#206ec0]'>Sign in</button>
-                    </div>
+                    </Link>
 
                     <div className='text-center font-[600] text-[16px] mt-4 text-[#47AC5F]'>
                       Forgot the password?
