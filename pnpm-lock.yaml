@@ -46,7 +46,7 @@ importers:
         version: 1.0.7(tailwindcss@3.4.8)
     devDependencies:
       '@types/node':
-        specifier: ^20
+        specifier: ^20.14.14
         version: 20.14.14
       '@types/react':
         specifier: ^18
@@ -61,7 +61,7 @@ importers:
         specifier: ^3.4.1
         version: 3.4.8
       typescript:
-        specifier: ^5
+        specifier: ^5.5.4
         version: 5.5.4
 
 packages:
