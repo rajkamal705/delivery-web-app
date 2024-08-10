@@ -17,9 +17,7 @@ function Page() {
                                 <p className='text-[#212121] text-[80px] font-[700]'>Make Order</p>
                             </div>
                         </div>
-                        <div className='flex items-center'>
-                            <Image width={28} height={28} src="/Images/Notification.svg" alt="img" />
-                        </div>
+                        
                     </div>
 
                     
