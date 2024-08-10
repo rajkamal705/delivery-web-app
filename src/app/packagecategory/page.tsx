@@ -30,7 +30,7 @@ function Page() {
                         <span className='text-[#212121] text-[22px] font-[700] mt-8'>Package Category</span>
                         <div className='flex items-center gap-4 h-[5rem] rounded-2xl py-4 bg-[#FAFAFA]'>
                             <div className='flex justify-center items-center ml-20'>
-                                <Image width={60} height={60} src="/Images/dollar.svg" alt="img" />
+                                <Image width={60} height={60} src="/Images/CategoryBox.svg" alt="img" />
                             </div>
                             <div className="flex flex-col items-center justify-center ml-[50px]">
                             <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Category' />
@@ -45,17 +45,7 @@ function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex gap-4 mt-8 flex-col'>
-                        <span className='text-[#212121] text-[22px] font-[700]'>Email</span>
-                        <div className='flex items-center gap-4 h-[5rem] rounded-2xl py-4 bg-[#FAFAFA]'>
-                            <div className='flex justify-center items-center ml-20'>
-                                <Image width={60} height={60} src="/Images/dollar.svg" alt="img" />
-                            </div>
-                            <div className="flex flex-col items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Email' />
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div className='flex gap-4 mt-8 flex-col'>
                         <span className='text-[#212121] text-[22px] font-[700]'>Dimension</span>
                         <div className='flex flex-wrap items-center gap-4 h-[6rem]'>
@@ -74,7 +64,7 @@ function Page() {
                         <span className='text-[#212121] text-[22px] font-[700]'>Select Shipping</span>
                         <div className='flex items-center gap-4 h-[5rem] rounded-2xl py-4 bg-[#FAFAFA]'>
                             <div className='flex justify-center items-center ml-20'>
-                                <Image width={60} height={60} src="/Images/dollar.svg" alt="img" />
+                                <Image width={60} height={60} src="/Images/Vector.svg" alt="img" />
                             </div>
                             <div className="flex flex-col items-center justify-center ml-[50px]">
                             <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Shipping' />
