@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 import PaymentButtons from '@/components/ui/paymentbuttons';
+import Link from 'next/link';
 
 function Page() {
     return (
@@ -62,9 +63,9 @@ function Page() {
                     </div>
                    
                    
-                    <div className='mt-48 mb-10'>
+                    <Link href="/summary" className='mt-48 mb-10'>
                     <button className=' w-[1700px] text-[16px] font-[700] bg-[#47AC5F] rounded-full px-32 py-4 text-[#FFFFFF]'>Continue</button>
-                    </div>
+                    </Link>
                    
 
                   

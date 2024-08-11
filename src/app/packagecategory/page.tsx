@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 import PaymentButtons from '@/components/ui/paymentbuttons';
+import Link from 'next/link';
 
 function Page() {
     return (
@@ -17,12 +18,12 @@ function Page() {
                                 <p className='text-[#212121] text-[80px] font-[700]'>Make Order</p>
                             </div>
                         </div>
-                        
+
                     </div>
 
-                    
+
                     <div className='flex gap-4 mt-8 flex-col '>
-                        <PaymentButtons/>
+                        <PaymentButtons />
 
                         <div className='mt-5 border-b border-[#FFFFFF]'></div>
                         <span className='text-[#212121] text-[22px] font-[700] mt-8'>Package Category</span>
@@ -31,7 +32,7 @@ function Page() {
                                 <Image width={60} height={60} src="/Images/CategoryBox.svg" alt="img" />
                             </div>
                             <div className="flex flex-col items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Category' />
+                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Category' />
                             </div>
                         </div>
                     </div>
@@ -39,22 +40,22 @@ function Page() {
                         <span className='text-[#212121] text-[22px] font-[700]'>Weight</span>
                         <div className='flex items-center gap-4 h-[5rem] rounded-2xl py-4 bg-[#FAFAFA]'>
                             <div className="flex flex-col items-center justify-center ml-[20px]">
-                            <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='0' />
+                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='0' />
                             </div>
                         </div>
                     </div>
-                   
+
                     <div className='flex gap-4 mt-8 flex-col'>
                         <span className='text-[#212121] text-[22px] font-[700]'>Dimension</span>
                         <div className='flex flex-wrap items-center gap-4 h-[6rem]'>
-                        <div className="flex  items-center justify-center h-[5rem]">
-                            <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
-                            </div> 
-                            <div className="flex  items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
+                            <div className="flex  items-center justify-center h-[5rem]">
+                                <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
                             </div>
                             <div className="flex  items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
+                                <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
+                            </div>
+                            <div className="flex  items-center justify-center ml-[50px]">
+                                <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
                             </div>
                         </div>
                     </div>
@@ -65,16 +66,16 @@ function Page() {
                                 <Image width={60} height={60} src="/Images/Vector.svg" alt="img" />
                             </div>
                             <div className="flex flex-col items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Shipping' />
+                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Shipping' />
                             </div>
                         </div>
                     </div>
-                    <div className='mt-56 mb-10'>
-                    <button className=' w-[1700px] text-[16px] font-[700] bg-[#47AC5F] rounded-full px-32 py-4 text-[#FFFFFF]'>Continue</button>
-                    </div>
-                   
+                    <Link href="payment" className='mt-56 mb-10'>
+                        <button className=' w-[1700px] text-[16px] font-[700] bg-[#47AC5F] rounded-full px-32 py-4 text-[#FFFFFF]'>Continue</button>
+                    </Link>
 
-                  
+
+
                 </div>
             </div>
         </>

@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from "next/image";
 import PaymentButtons from '@/components/ui/paymentbuttons';
+import Link from 'next/link';
 
 function Page() {
     return (
@@ -17,12 +18,12 @@ function Page() {
                                 <p className='text-[#212121] text-[80px] font-[700]'>Make Order</p>
                             </div>
                         </div>
-                    
+
                     </div>
 
                     <div className='flex gap-4 mt-8 flex-col '>
-                      
-                        <PaymentButtons/>
+
+                        <PaymentButtons />
 
                         <div className='mt-5 border-b border-[#FFFFFF]'></div>
                         <span className='text-[#212121] text-[18px] font-[700] mt-8'>Receiver Name</span>
@@ -31,7 +32,7 @@ function Page() {
                                 <Image width={60} height={60} src="/Images/Profile.svg" alt="img" />
                             </div>
                             <div className="flex flex-col items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Receiver Name' />
+                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Receiver Name' />
                             </div>
                         </div>
                     </div>
@@ -45,7 +46,7 @@ function Page() {
                                 <Image width={30} height={30} src="/Images/arrow-down.svg" alt="img" />
                             </div>
                             <div className="flex flex-col items-center justify-center ml-[20px]">
-                            <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='+1' />
+                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='+1' />
                             </div>
                         </div>
                     </div>
@@ -56,7 +57,7 @@ function Page() {
                                 <Image width={60} height={60} src="/Images/mail.svg" alt="img" />
                             </div>
                             <div className="flex flex-col items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Email' />
+                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Email' />
                             </div>
                         </div>
                     </div>
@@ -67,25 +68,25 @@ function Page() {
                                 <Image width={60} height={60} src="/Images/location.svg" alt="img" />
                             </div>
                             <div className="flex flex-col items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='City / Province' />
+                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='City / Province' />
                             </div>
                         </div>
                     </div>
                     <div className='flex gap-4 mt-8 flex-col'>
                         <span className='text-[#212121] text-[18px] font-[700]'>Address Details</span>
                         <div className='flex items-center gap-4 h-[5rem] rounded-2xl py-4 bg-[#FAFAFA]'>
-                           
+
                             <div className="flex flex-col items-center justify-center ml-[50px]">
-                            <input className=' bg-white rounded-lg w-[1590px] py-5 px-4 outline-none' placeholder='Address Details' />
+                                <input className=' bg-white rounded-lg w-[1590px] py-5 px-4 outline-none' placeholder='Address Details' />
                             </div>
                         </div>
                     </div>
-                    <div className='mt-10 mb-10'>
-                    <button className=' w-[1700px] text-[16px] font-[700] bg-[#47AC5F] rounded-full px-32 py-4 text-[#FFFFFF]'>Continue</button>
-                    </div>
-                   
+                    <Link href="packagecategory" className='mt-10 mb-10'>
+                        <button className=' w-[1700px] text-[16px] font-[700] bg-[#47AC5F] rounded-full px-32 py-4 text-[#FFFFFF]'>Continue</button>
+                    </Link>
 
-                  
+
+
                 </div>
             </div>
         </>
