@@ -7,75 +7,58 @@ import Link from 'next/link';
 function Page() {
     return (
         <>
-            <div className='flex justify-center items-center bg-gradient-to-b from-green-500 via-yellow-500 to-blue-500 min-h-screen'>
+            <div className='flex justify-center items-center bg-gradient-to-b from-green-500 via-yellow-500 to-blue-500 min-h-screen py-10'>
                 <div className='w-[90%]'>
                     <div className='flex justify-between mt-8'>
                         <div className='flex gap-4'>
-                            <div className="flex justify-center items-center">
+                            {/* <div className="flex justify-center items-center">
                                 <div className="text-[#212121] text-[80px] font-[700]">{'<-'}</div>
-                            </div>
+                            </div> */}
                             <div>
-                                <p className='text-[#212121] text-[80px] font-[700]'>Make Order</p>
+                                <p className='text-[#212121] text-[24px] font-[700]'>Make Order</p>
                             </div>
                         </div>
 
                     </div>
 
 
-                    <div className='flex gap-4 mt-8 flex-col '>
+                    <div className='flex gap-4 flex-col '>
                         <PaymentButtons />
 
                         <div className='mt-5 border-b border-[#FFFFFF]'></div>
                         <span className='text-[#212121] text-[22px] font-[700] mt-8'>Package Category</span>
-                        <div className='flex items-center gap-4 h-[5rem] rounded-2xl py-4 bg-[#FAFAFA]'>
-                            <div className='flex justify-center items-center ml-20'>
-                                <Image width={60} height={60} src="/Images/CategoryBox.svg" alt="img" />
-                            </div>
-                            <div className="flex flex-col items-center justify-center ml-[50px]">
-                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Category' />
-                            </div>
+                        <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
+                            <Image width={20} height={20} src="/Images/CategoryBox.svg" alt="img" />
+                            <input className=' bg-[#FAFAFA] rounded-lg py-6 outline-none' placeholder='Category' />
                         </div>
                     </div>
                     <div className='flex gap-4 mt-8 flex-col'>
                         <span className='text-[#212121] text-[22px] font-[700]'>Weight</span>
-                        <div className='flex items-center gap-4 h-[5rem] rounded-2xl py-4 bg-[#FAFAFA]'>
-                            <div className="flex flex-col items-center justify-center ml-[20px]">
-                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='0' />
-                            </div>
+                        <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
+                            <input className='bg-[#FAFAFA] rounded-lg py-6 outline-none' placeholder='0' />
                         </div>
                     </div>
 
                     <div className='flex gap-4 mt-8 flex-col'>
                         <span className='text-[#212121] text-[22px] font-[700]'>Dimension</span>
-                        <div className='flex flex-wrap items-center gap-4 h-[6rem]'>
-                            <div className="flex  items-center justify-center h-[5rem]">
-                                <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
-                            </div>
-                            <div className="flex  items-center justify-center ml-[50px]">
-                                <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
-                            </div>
-                            <div className="flex  items-center justify-center ml-[50px]">
-                                <input className=' bg-white rounded-lg w-[517px] py-5 px-4 outline-none' placeholder='City / Province' />
-                            </div>
+                        <div className='flex gap-4 items-center gap-4'>
+                            <input className=' bg-[#FAFAFA] rounded-lg py-6 px-10 w-1/3 outline-none' placeholder='Length' />
+                            <input className=' bg-[#FAFAFA] rounded-lg py-6 px-10 w-1/3 outline-none' placeholder='Width' />
+                            <input className=' bg-[#FAFAFA] rounded-lg py-6 px-10 w-1/3 outline-none' placeholder='Height' />
                         </div>
                     </div>
                     <div className='flex gap-4 mt-8 flex-col'>
                         <span className='text-[#212121] text-[22px] font-[700]'>Select Shipping</span>
-                        <div className='flex items-center gap-4 h-[5rem] rounded-2xl py-4 bg-[#FAFAFA]'>
-                            <div className='flex justify-center items-center ml-20'>
-                                <Image width={60} height={60} src="/Images/Vector.svg" alt="img" />
-                            </div>
-                            <div className="flex flex-col items-center justify-center ml-[50px]">
-                                <input className=' bg-white rounded-lg w-[890px] py-5 px-4 outline-none' placeholder='Shipping' />
-                            </div>
+                        <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
+                            <Image width={20} height={20} src="/Images/Vector.svg" alt="img" />
+                            <input className=' bg-[#FAFAFA] rounded-lg py-6 outline-none' placeholder='Shipping' />
                         </div>
                     </div>
-                    <Link href="payment" className='mt-56 mb-10'>
-                        <button className=' w-[1700px] text-[16px] font-[700] bg-[#47AC5F] rounded-full px-32 py-4 text-[#FFFFFF]'>Continue</button>
-                    </Link>
-
-
-
+                    <div className='mt-10'>
+                        <Link href="payment" className='mt-56 mb-10'>
+                            <button className='w-full text-[16px] font-[700] bg-[#47AC5F] rounded-full px-32 py-4 text-[#FFFFFF]'>Continue</button>
+                        </Link>
+                    </div>
                 </div>
             </div>
         </>
