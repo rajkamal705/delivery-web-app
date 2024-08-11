@@ -28,7 +28,7 @@ function Page() {
                 The best app for shipping & delivery in this century
               </div>
 
-              <Link href="/login-as" className='mt-20'>
+              <Link href="/intro2" className='mt-20'>
                 <button className='bg-white px-10 py-3 text-[#206EC0] rounded-full w-80'>Next</button>
               </Link>
             </div>
