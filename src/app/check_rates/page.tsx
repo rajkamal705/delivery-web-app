@@ -31,22 +31,20 @@ function Page() {
                         <div className='flex w-[1625px] items-center gap-10 rounded-2xl py-4 bg-[#FFFFFF] px-10'>
                            
                             <div className="flex flex-col justify-center">
-                                <p className='text-xl font-[700]'>Payment Successful!</p>
-                                <p className='text-lg text-[#616161] font-light'>You have made a shipping payment</p>
+                            <input className=' bg-[#FAFAFA] rounded-lg py-6 px-10 w-full outline-none' placeholder='Pick up Location' />
                             </div>
                         </div>
                     </div>
 
                     <div className='flex gap-8 mt-8 flex-wrap'>
                         <div className='mt-6'>
-                            <input type="radio" className="form-radio h-10 w-8 text-blue-600" />
+                        <Image width={28} height={28} src="/Images/location.svg" alt="img" />
                         </div>
                       
                         <div className='flex w-[1625px] items-center gap-10 rounded-2xl py-4 bg-[#FFFFFF] px-10'>
                            
                             <div className="flex flex-col justify-center">
-                                <p className='text-xl font-[700]'>Payment Successful!</p>
-                                <p className='text-lg text-[#616161] font-light'>You have made a shipping payment</p>
+                            <input className=' bg-[#FAFAFA] rounded-lg py-6 px-10 w-full outline-none' placeholder='Package Destination' />
                             </div>
                         </div>
                     </div>

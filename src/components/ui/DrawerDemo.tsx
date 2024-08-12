@@ -26,7 +26,7 @@ export function DrawerDemo() {
             <DrawerTitle className="text-xl font-bold">Rates</DrawerTitle>
           </DrawerHeader>
           <div className="flex justify-between items-center mt-4 px-4">
-            <div className="text-center">
+            <div className="text-start">
               <p className="text-[14px] font-medium text-gray-700 text-xl">800 Sunnyside Crossing</p>
               <p className="text-[12px] text-gray-500">Pick up Location</p>
             </div>
@@ -53,7 +53,7 @@ export function DrawerDemo() {
 
             <div className="flex items-center justify-between bg-[#FAFAFA] p-4 rounded-lg shadow-sm">
               <div className="flex items-center gap-4">
-                <Image src="/Images/3-wheeler-icon.svg" alt="3-Wheeler" width={32} height={32} />
+                <Image src="/Images/auto.svg" alt="3-Wheeler" width={42} height={42} />
                 <div>
                   <p className="text-[18px] text-[#212121] font-semibold">3-Wheeler</p>
                   <p className="text-[14px] text-[#616161]">3-5 days</p>
