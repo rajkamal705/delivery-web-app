@@ -85,7 +85,7 @@ function Page() {
                     </div>
 
                     <div className='mt-10'>
-                        <Link href="/summary" className='mt-56 mb-10'>
+                        <Link href="/list-my-order" className='mt-56 mb-10'>
                             <button className='w-full text-[16px] font-[700] bg-[#47AC5F] rounded-full px-32 py-4 text-[#FFFFFF]'>Confirm Order</button>
                         </Link>
                     </div>
