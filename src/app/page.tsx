@@ -1,8 +1,24 @@
 'use client';
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import Loader from "@/components/Loader";
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <main className='flex justify-center items-center bg-[url("/Images/home-background.svg")] min-h-screen bg-cover bg-no-repeat'>
       <div className="flex flex-col">
