@@ -43,20 +43,20 @@ function Page() {
                         <span className='text-[#212121] text-[18px] font-[700]'>Email</span>
                         <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
                             <Image width={20} height={20} src="/Images/mail.svg" alt="img" />
-                            <input className=' bg-[#FAFAFA] rounded-lg py-6 outline-none' placeholder='Email' />
+                            <input className=' bg-[#FAFAFA] rounded-lg w-full py-6 outline-none' placeholder='Email' />
                         </div>
                     </div>
                     <div className='flex gap-4 mt-8 flex-col'>
                         <span className='text-[#212121] text-[18px] font-[700]'>City / Province</span>
                         <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
                             <Image width={20} height={20} src="/Images/location.svg" alt="img" />
-                            <input className=' bg-[#FAFAFA] rounded-lg py-6 outline-none' placeholder='City / Province' />
+                            <input className=' bg-[#FAFAFA] rounded-lg py-6 w-full outline-none' placeholder='City / Province' />
                         </div>
                     </div>
                     <div className='flex gap-4 mt-8 flex-col'>
                         <span className='text-[#212121] text-[18px] font-[700]'>Address Details</span>
                         <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
-                          <input className=' bg-[#FAFAFA] rounded-lg py-6 outline-none' placeholder='Address Details' />
+                          <input className=' bg-[#FAFAFA] rounded-lg py-6 w-full outline-none' placeholder='Address Details' />
                         </div>
                     </div>
                     <div className='mt-10'>

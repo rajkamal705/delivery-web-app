@@ -31,13 +31,13 @@ function Page() {
 
                         <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
                             <Image width={24} height={24} src="/Images/Group.png" alt="img" />
-                            <p className='py-6'>My Wallet</p>
+                            <p className='rounded-lg outline-none py-6'>My Wallet</p>
                         </div>
                     </div>
                     <div className='flex gap-4 mt-8 flex-col'>
                         <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
                             <Image width={24} height={24} src="/Images/Frame.png" alt="img" />
-                            <p className='py-6'>PayPal</p>
+                            <p className='rounded-lg outline-none py-6'>PayPal</p>
                         </div>
                     </div>
                     <div className='flex gap-4 mt-8 flex-col'>
