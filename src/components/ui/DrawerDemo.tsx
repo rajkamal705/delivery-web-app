@@ -42,7 +42,7 @@ export function DrawerDemo() {
           <div className="mt-8 space-y-4">
             <div className="flex items-center justify-between bg-[#FAFAFA] p-4 rounded-lg shadow-sm">
               <div className="flex items-center gap-4">
-                <Image src="/Images/2-wheeler-icon.svg" alt="2-Wheeler" width={32} height={32} />
+                <Image src="/Images/auto.svg" alt="2-Wheeler" width={52} height={42} />
                 <div>
                   <p className="text-[18px] text-[#212121] font-semibold">2-Wheeler</p>
                   <p className="text-[14px] text-[#616161]">3-4 days</p>
@@ -53,7 +53,7 @@ export function DrawerDemo() {
 
             <div className="flex items-center justify-between bg-[#FAFAFA] p-4 rounded-lg shadow-sm">
               <div className="flex items-center gap-4">
-                <Image src="/Images/auto.svg" alt="3-Wheeler" width={42} height={42} />
+                <Image src="/Images/Category=Cargo.svg" alt="3-Wheeler" width={52} height={42} />
                 <div>
                   <p className="text-[18px] text-[#212121] font-semibold">3-Wheeler</p>
                   <p className="text-[14px] text-[#616161]">3-5 days</p>
@@ -64,7 +64,7 @@ export function DrawerDemo() {
 
             <div className="flex items-center justify-between bg-[#FAFAFA] p-4 rounded-lg shadow-sm">
               <div className="flex items-center gap-4">
-                <Image src="/Images/4-wheeler-icon.svg" alt="4-Wheeler" width={32} height={32} />
+                <Image src="/Images/4-wheel.svg" alt="4-Wheeler" width={32} height={32} />
                 <div>
                   <p className="text-[18px] text-[#212121] font-semibold">4-Wheeler</p>
                   <p className="text-[14px] text-[#616161]">1-2 days</p>
