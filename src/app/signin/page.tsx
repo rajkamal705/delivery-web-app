@@ -31,9 +31,9 @@ function page() {
                         <button className='text-[16px] font-[700] bg-white rounded-full px-52 py-4 text-[#206ec0]'>Sign in</button>
                     </Link>
 
-                    <div className='text-center font-[600] text-[16px] mt-4 text-[#47AC5F]'>
+                    <Link href="/forgot-password" className='text-center font-[600] text-[16px] mt-4 text-[#47AC5F]'>
                       Forgot the password?
-                    </div>
+                    </Link>
 
                     <div className='mt-8 flex gap-4 justify-between'>
                         <div className='text-[#EEEEEE]'>_________________</div>

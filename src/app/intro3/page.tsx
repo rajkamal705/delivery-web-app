@@ -28,7 +28,7 @@ function Page() {
                                Welcome to Reendasua and enjoy our service
                             </div>
 
-                            <Link href="/login" className='mt-20'>
+                            <Link href="/login-as" className='mt-20'>
                                 <button className='bg-white px-10 py-3 text-[#206EC0] rounded-full w-80'>Get Started</button>
                             </Link>
                         </div>
