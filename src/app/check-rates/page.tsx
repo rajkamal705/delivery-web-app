@@ -23,7 +23,28 @@ function Page() {
                         </div>
                     </div>
 
-                    <div className='flex gap-8 mt-8 flex-wrap'>
+                    <div className='mt-10'>
+                        <div className='flex gap-4'>
+                            <Image width={36} height={36} src="/Images/radio-button.svg" alt="img" />
+                            <div className='bg-white rounded-2xl w-full font-[600] text-[16px] py-6 px-10'>
+                                800 Sunnyside Crossing
+                            </div>
+                        </div>
+                        <div className='text-white flex flex-col items-center w-9'>
+                            <p>|</p>
+                            <p>|</p>
+                        </div>
+
+                        <div className='flex gap-4 mt-2'>
+                            <Image width={36} height={36} src="/Images/track-location.svg" alt="img" />
+                            <div className='bg-white rounded-2xl w-full font-[600] text-[16px] py-6 px-10'>
+                               39062 Butternut Pass
+                            </div>
+                        </div>
+                    </div>
+
+
+                    {/* <div className='flex gap-8 mt-8 flex-wrap'>
                         <div className='mt-6'>
                             <input type="radio" className="form-radio h-10 w-8 text-blue-600" />
                         </div>
@@ -47,21 +68,22 @@ function Page() {
                             <input className=' bg-[#FAFAFA] rounded-lg py-6 px-10 w-full outline-none' placeholder='Package Destination' />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className='mt-9 border-b '></div>
 
                     <div className='flex gap-4 mt-10 flex-col'>
                         <span className='text-[#212121] text-[22px] font-[700]'>Dimension</span>
-                        <div className='flex gap-4 items-center h-16'>
-                            <input className=' bg-[#FAFAFA] rounded-lg py-6 px-10 w-full outline-none' placeholder='Length' />
+                        <div className='flex items-center gap-4 rounded-2xl px-10 bg-[#FAFAFA]'>
+                            <Image width={20} height={20} src="/Images/CategoryBox.svg" alt="img" />
+                            <div className=' bg-[#FAFAFA] rounded-lg py-6 w-full outline-none'>2.2</div>
                         </div>
                     </div>
 
                     <div className='mt-10'>
                         {/* Replace the Check button with DrawerDemo component */}
                         <DrawerDemo />
-                    </div> 
+                    </div>
                 </div>
             </div>
         </>

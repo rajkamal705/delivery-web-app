@@ -34,12 +34,12 @@ function page() {
                             <p className='text-center font-[700]'>Make order</p>
                         </Link>
 
-                        <div className='flex flex-col gap-2 w-1/2 border-[2px] border-black rounded-2xl py-4 bg-[#F7D100]'>
+                        <Link href="check-rates" className='flex flex-col gap-2 w-1/2 border-[2px] border-black rounded-2xl py-4 bg-[#F7D100]'>
                             <div className='flex justify-center'>
                                 <Image width={60} height={60} src="/Images/notes.svg" alt="img" />
                             </div>
                             <p className='text-center font-[700]'>Check Rates</p>
-                        </div>
+                        </Link>
                     </div>
 
                     <div className='mt-4'>
