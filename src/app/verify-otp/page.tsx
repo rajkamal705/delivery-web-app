@@ -28,10 +28,10 @@ function Page() {
                         maxLength={4}
                     >
                         <InputOTPGroup className="flex gap-4 justify-between">
-                            <InputOTPSlot className="p-6 text-black border-[2px] border-[#47Ac5F] rounded-xl" index={0} />
-                            <InputOTPSlot className="p-6 text-black border-[2px] border-[#47Ac5F] rounded-xl" index={1} />
-                            <InputOTPSlot className="p-6 text-black border-[2px] border-[#47Ac5F] rounded-xl" index={2} />
-                            <InputOTPSlot className="p-6 text-black border-[2px] border-[#47Ac5F] rounded-xl" index={3} />
+                            <InputOTPSlot className="p-6 text-black rounded-xl bg-white" index={0} />
+                            <InputOTPSlot className="p-6 text-black rounded-xl bg-white" index={1} />
+                            <InputOTPSlot className="p-6 text-black rounded-xl bg-white" index={2} />
+                            <InputOTPSlot className="p-6 text-black rounded-xl bg-white" index={3} />
                         </InputOTPGroup>
                     </InputOTP>
                 </div>
